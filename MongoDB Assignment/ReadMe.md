@@ -54,6 +54,8 @@ db.books.updateMany(
   { $set: { rating: 0 } }
 )
 
+
+
 Step 7: Delete Data
 Delete a specific book:
 db.books.deleteOne({ ISBN: "9780451524935" })
